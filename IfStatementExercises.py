@@ -25,8 +25,7 @@ else:
 # d.
 if number1 != number2:
     print(str(number1) + " is not equal to " + str(number2))
-else:
-     print(str(number1) + " is equal to " + str(number2))
+
 
 
 #2 
@@ -52,3 +51,29 @@ if (number1 > number2) and (number1 > number3):
 else:
     print("not true")
 
+#3
+
+name1 = "Masi"
+name2 = "Matti"
+name3 = "Maija"
+
+# a. 
+if name1 == name2:
+    print("name1 are name2 are equal")
+else:
+    print("name1 are name2 are not equal")
+
+# b. 
+if name1 != name2:
+    print("name 1 and name2 are not equal")
+else: 
+    print("name 1 and name2 are equal")
+
+# c. 
+if name1 == name2:
+    print("name1 and name2 are equal.")
+else:
+    if name1 == name3:
+        print("name1 and name3 are equal.")
+    else:
+        print("neither condition is true.")
